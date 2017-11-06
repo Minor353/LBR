@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Библиотека элементов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Библиотека элементов для верстки</h1>
+    <!----------Нестандартная тень--------------->
+    <div class="wrap">
+        <div class="shadow-box">
+            <h3>Блок с тенями</h3>
+        </div>
+    </div>
+    <!------------------------------------------>
+
+    <!------Эффекты при наведении: кнопки------->
+    <div class="wrap">
+        <div class="buttons">
+            <button class="btn-green">
+                <img class="icon" src="img/reload-6x-white.png"> Обновить
+            </button>
+            <button class="btn-yellow">
+                <span class="hidden">25 <img src="img/dollar-6x-white.png"></span>
+                <img class="icon" src="img/cart-6x-white.png"> Купить
+            </button>
+            <button class="btn-blue">
+                <span class="hidden"><img src="img/envelope-open-6x-white.png"></span>
+                <img class="icon" src="img/envelope-closed-6x-white.png"> Прочитать
+            </button>
+        </div>
+    </div>
+    <!------------------------------------------>
+    
+    <!------ Эффекты при наведении: галерея----->
+    <div class="wrap">
+        <ul class="deck">
+            <li><img class="ten" src="img/10.png"></li>
+            <li><img class="jack" src="img/jack.png"></li>
+            <li><img class="queen" src="img/queen.png"></li>
+            <li><img class="king" src="img/king.png"></li>
+            <li><img class="ace" src="img/ace.png"></li>
+            <li><img class="ten" src="img/10.png"></li>
+            <li><img class="jack" src="img/jack.png"></li>
+            <li><img class="queen" src="img/queen.png"></li>
+        </ul>
+    </div>
+    <!------------------------------------------>
+    
+    <!--------------Круговое меню--------------->
+    <div class="wrap">
+         <nav class="circle-menu">
+            <div class="center"></div>
+            <ul>
+                <li><a href="#">monitor</a></li>
+                <li><a href="#">aperture</a></li>
+                <li><a href="#">audio</a></li>
+                <li><a href="#">battery-empty</a></li>
+                <li><a href="#">bluetooth</a></li>
+                <li><a href="#">browser</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!------------------------------------------>
+    
+    <!---------Бумажные кнопки------------------>
+    <div class="wrap">
+        <section class="card">
+            <h1 class="question"><span>HTML расшифровывается как «How To Meet Ladies»?</span></h1>
+            <form class="answers">
+                <div class="yes-no-selector">
+                    <div class="paper-btn paper-btn-true">
+                        <input type="radio" name="answer" id="yes-answer">
+                        <label for="yes-answer">Правда</label>
+                    </div>
+                    <div class="paper-btn paper-btn-false">
+                        <input type="radio" name="answer" id="no-answer">
+                        <label for="no-answer">Ложь</label>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!---------------------------------------->
+    
+    <!-------------Чекбоксы------------------->
+    <div class="wrap">
+        <section class="card">
+            <h1 class="question"><span>Какие значения свойства position правильные?</span></h1>
+            <form class="answers  answers--checkbox">
+                <div>
+                    <input type="checkbox" id="answer1">
+                    <label class="checkbox-label" for="answer1">absolute</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="answer2">
+                    <label class="checkbox-label" for="answer2">great</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="answer3">
+                    <label class="checkbox-label" for="answer3">majestic</label>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!---------------------------------------->
+    
+    <!-------------Радиобатоны------------------->
+    <div class="wrap">
+         <section class="card">
+            <h1 class="question"><span>Каким свойством CSS можно скрыть элемент?</span></h1>
+            <form class="answers  answers--radiob">
+                <div>
+                    <input type="radio" name="answer" id="answer-rado1">
+                    <label class="radiob" for="answer-rado1">transparency</label>
+                </div>
+                <div>
+                    <input type="radio" name="answer" id="answer-rado2">
+                    <label class="radiob" for="answer-rado2">opacity</label>
+                </div>
+                <div>
+                    <input type="radio" name="answer" id="answer-rado3">
+                    <label class="radiob" for="answer-rado3">invisibility</label>
+                </div>
+            </form>
+        </section>
+    </div>   
+    <!---------------------------------------->
+    
+    
+    <!------------------Переключатели---------------------->
+    <div class="wrap">
+    <section class="card">
+            <h1 class="question"><span>Каких тегов в HTML никогда не было?</span></h1>
+            <form class="answers  ansver--checker">
+                <div>
+                    <input type="checkbox" id="answer-checker1">
+                    <label class="checker" for="answer-checker1">nextid</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="answer-checker2">
+                    <label class="checker" for="answer-checker2">bgsound</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="answer-checker3">
+                    <label class="checker" for="answer-checker3">hole</label>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!--------------------------------------------------->
+    
+    <!-------------------Бургер--------------------->
+    <div class="wrap">
+        <section class="card card-bordered" id="card-bordered">
+            <div class="menu-icon" id="menu-icon">
+                <span></span>
+            </div>
+        </section>
+    </div>
+    <!--------------------------------------------------->
+    
+    
+    
+    <!-------------------Текстовое поле--------------------->
+    <div class="wrap">
+        <section class="card  card-text-field">
+            <h1 class="question"><span>Как назывался самый первый браузер?</span></h1>
+            <form class="answers">
+                <div>
+                    <input type="text" required>
+                    <div class="label-box">
+                        <label class="text-field">Слово по-английски</label>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!--------------------------------------------------->
+    <script src="script.js"></script>
+</body>
+
+</html>
